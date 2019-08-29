@@ -69,7 +69,7 @@ var vmB = new Vue({
 })
 ```
 
-![状态管理](/images/state.png)
+![状态管理](../../images/state.png)
 
 <p class="tip">重要的是，注意你不应该在 action 中 替换原始的状态对象 - 组件和 store 需要引用同一个共享对象，mutation 才能够被观察</p>
 

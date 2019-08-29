@@ -50,7 +50,7 @@ module.exports = {
 
 点击在 Activity Bar 里的 Debugger 图标来到 Debug 视图，然后点击那个齿轮图标来配置一个 `launch.json` 的文件，选择 **Chrome/Firefox: Launch** 环境。然后将生成的 `launch.json` 的内容替换成为相应的配置：
 
-![添加 Chrome 配置](/images/config_add.png)
+![添加 Chrome 配置](../../images/config_add.png)
 
 ```json
 {
@@ -83,7 +83,7 @@ module.exports = {
 
 1. 在 **`src/components/HelloWorld.vue`** 的 `line90` 的地方设置一个断点，这里的 `data` 函数返回一个字符串。
 
-  ![断点渲染器](/images/breakpoint_set.png)
+  ![断点渲染器](../../images/breakpoint_set.png)
 
 2. 在根目录打开你惯用的终端并使用 Vue CLI 开启这个应用：
 
@@ -95,7 +95,7 @@ module.exports = {
 
 4. 随着一个新的浏览器实例打开 `http://localhost:8080`，你的断点现在应该被命中了。
 
-  ![命中断点](/images/breakpoint_hit.png)
+  ![命中断点](../../images/breakpoint_hit.png)
 
 ## 替代方案
 
@@ -103,7 +103,7 @@ module.exports = {
 
 我们还有一些其它的调试方法，复杂度不尽相同。其中最流行和简单的是使用非常棒的 [Chrome 版本](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 和 [Firefox 版本](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)的 Vue.js devtools。使用 devtools 有很多好处，比如它可以让你能够实时编辑数据属性并立即看到其反映出来的变化。另一个主要的好处是能够为 Vuex 提供时间旅行式的调试体验。
 
-![Devtools Timetravel Debugger](/images/devtools-timetravel.gif)
+![Devtools Timetravel Debugger](../../images/devtools-timetravel.gif)
 
 <p class="tip">请留意如果页面使用了一个生产环境/压缩后的 Vue.js 构建版本 (例如来自一个 CDN 的标准的链接)，devtools 的审查功能是默认被禁用的，所以 Vue 面板不会出现。如果你切换到一个非压缩版本，你可能需要强制刷新该页面来看到它。</p>
 
